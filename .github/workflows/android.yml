@@ -19,8 +19,9 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-
-      - name: Build APK
+          - name: Set up Gradle
+  uses: gradle/actions/setup-gradle@v3
+- name: Build APK
         run: |
           chmod +x gradlew
           ./gradlew assembleDebug
