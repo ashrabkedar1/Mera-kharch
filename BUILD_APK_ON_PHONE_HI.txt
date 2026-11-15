@@ -1,0 +1,10 @@
+मोबाइल से APK बनाने का तरीका
+
+1. GitHub में लॉग इन करें और + > New repository चुनें। Repository का नाम MeraKharch रखें। Public या Private चुनकर Create repository दबाएँ।
+2. इस ZIP को Extract करें। Extract किए गए MeraKharch_GitHub_Build फोल्डर के अंदर की सभी फाइलें और फोल्डर repository के root में अपलोड करें। .github फोल्डर भी जरूर अपलोड करें।
+3. GitHub repository में Actions टैब खोलें। यदि पूछा जाए तो I understand my workflows, go ahead दबाएँ।
+4. Build Mera Kharch APK workflow चुनें और Run workflow दबाएँ।
+5. Build सफल होने पर workflow run खोलें। नीचे Artifacts में Mera-Kharch-APK डाउनलोड करें। ZIP के अंदर app-debug.apk मिलेगा।
+6. APK इंस्टॉल करने से पहले केवल अपने बनाए APK के लिए ब्राउज़र/Files को Install unknown apps की अनुमति दें। इंस्टॉल के बाद अनुमति बंद कर सकते हैं।
+
+यह Debug APK है, निजी उपयोग/टेस्टिंग के लिए।
